@@ -1,0 +1,187 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-family: Lora, contemporary-serif;
+}
+
+.description {
+  color: #ffffff;
+  font-family: Lora, contemporary-serif;
+}
+
+.description .card-title {
+  color: #006d77; 
+  font-weight: bold; 
+  font-size: 60px;
+}
+
+.description .card-text {
+  color: #006d77; 
+  font-size: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.description .card {
+  background-color: #e9ecef;
+  border-radius: 0%;
+}
+
+.equal-height-card .card {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.equal-height-card .card-title {
+  font-weight: bold;
+  font-family: Lora, contemporary-serif;
+  font-size: 22px;
+}
+
+.custom-navbar {
+  background-color: #161616;
+}
+
+.footer-link {
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.footer-link:hover {
+  color: #161616;
+}
+
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #006d77;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  font-family: Lora, contemporary-serif;
+  font-size: 18px;
+}
+
+.ms-auto .nav-link {
+  font-family: Lora, contemporary-serif;
+  font-size: 18px;
+}
+
+.servicesPage {
+  background-color: #e9ecef;
+}
+
+.mainHeader h1 {
+  font-family: Lora, contemporary-serif;
+  color: #006d77;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.aboutPage {
+  background-color: #e9ecef;
+}
+
+.aboutHeadings h1 {
+  font-family: Lora, contemporary-serif;
+  color: #006d77;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.aboutHeadings h2 {
+  font-family: Lora, contemporary-serif;
+  color: #006d77;
+}
+
+.companyDescription p {
+  font-size: 18px;
+  font-style: italic;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.hannahBio h2 {
+  color: #006d77;
+  margin: 30px;
+}
+
+.hannahBio h5 {
+  font-style: italic;
+  font-size: 22px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 30px;
+}
+
+.hannahBio p {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.contactPage h1 {
+  color: #006d77;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.contactPage h2 {
+  font-style: italic;
+}
+
+.contactLink {
+  color: #161616;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.contactLink:hover {
+  color: #006d77;
+}
+
+.servicesList p {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.servicesList h2 {
+  font-size: 35px;
+  color: #006d77;
+}
+
+.arrow-icon {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.down-arrow {
+  border-width: 10px 10px 0 10px;
+  border-color: #006d77 transparent transparent transparent;
+  align-items: center;
+}
+
+.up-arrow {
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #006d77 transparent;
+  align-items: center;
+}
+
+.contactPage {
+  background-color: #e9ecef;
+}
+
+.homePage {
+  background-color: #e9ecef;
+}
